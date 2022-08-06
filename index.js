@@ -34,7 +34,7 @@ window.onload = function() {
 
 function setGame()  {
     // Digits 1-9
-    for (let i = 1; i < 9; i++) {
+    for (let i = 1; i <= 9; i++) {
         // <div id="1" class="number"></div>
         let number = document.createElement("div");
         number.id = i
