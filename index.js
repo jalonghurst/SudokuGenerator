@@ -43,3 +43,13 @@ function setGame()  {
         document.getElementById("digits").appendChild(number);
     }
 }
+
+// Board 9x9
+for (let r = 0; r < 9; r++) {
+    for ( let c=0; c < 9; c++) {
+        let tile = document.createElement("div");
+        tile.id = r.toString() + "-" + c.toString();
+        tile.classList.add("tile");
+        document.getElementById("board").append(tile);
+    }
+}
