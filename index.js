@@ -46,7 +46,7 @@ function setGame()  {
 
     // Board 9x9
     for (let r = 0; r < 9; r++) {
-        for ( let c = 0; c < 9; c++) {
+        for (let c = 0; c < 9; c++) {
             let tile = document.createElement("div");
             tile.id = r.toString() + "-" + c.toString();
             tile.classList.add("tile");
@@ -55,6 +55,10 @@ function setGame()  {
     }
 }
 
-function selectNumber() {
-
+function selectNumber(){
+    if (numSelected != null) {
+        numSelected.classList.remove("number-selected");
+    }
+    numSelected = this;
+    numSelected.classList.add("number-selected");
 }
