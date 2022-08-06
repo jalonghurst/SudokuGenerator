@@ -1,4 +1,3 @@
 # SudokuGenerator
 
-
-![Sudoku](https://user-images.githubusercontent.com/63796776/183253648-47f5bbba-315c-4f43-be42-de11e07ad67c.jpg)
+![Sudoku](https://user-images.githubusercontent.com/63796776/183254179-e30d89de-8996-4dc9-8d71-164a72f67873.jpg)
