@@ -1,6 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 60%, rgba(154, 185, 226, 0.479) 100%);
+}
+
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    padding-top: 50px;
+    
 }
 
 hr {
@@ -8,21 +18,25 @@ hr {
 }
 
 #errors {
-    color: coral;
+    color: rgb(247, 78, 17);
 }
 
+.light {
+    font-weight: lighter;
+}
 #board {
     width: 450px;
     height: 450px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .tile {
     width: 48px;
     height: 48px;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(165, 163, 163);
 
     /* Text */
     font-size: 20px;
@@ -35,8 +49,6 @@ hr {
 #digits {
     width: 450px;
     height: 50px;
-
-
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +73,7 @@ hr {
 }
 
 .tile-start {
-    background-color: whitesmoke;
+    background-color: rgb(238, 237, 237);
 }
 
 .horizontal-line {
