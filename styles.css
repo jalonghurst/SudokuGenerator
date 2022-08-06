@@ -37,6 +37,7 @@ hr {
     width: 48px;
     height: 48px;
     border: 1px solid rgb(165, 163, 163);
+    border-radius: 3px;
 
     /* Text */
     font-size: 20px;
@@ -58,6 +59,7 @@ hr {
     width: 44px;
     height: 44px;
     border: 1px solid black;
+    border-radius: 3px;
     margin: 2px;
 
     /* Text */
